@@ -1,0 +1,14 @@
+{
+  "0": "DbkeeperError",
+  "1": "verify",
+  "2": "restore.py",
+  "3": "postgres.py",
+  "4": "backup",
+  "5": "Operaciones y garantías",
+  "6": ".test_concurrent_snapshot_restore_and_truncated_archive",
+  "7": "cli.py",
+  "8": "completed_manifest",
+  "9": "AGENTS.md",
+  "10": "dbkeeper",
+  "11": "tests/__init__.py"
+}

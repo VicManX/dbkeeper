@@ -1,0 +1,39 @@
+# Copiar a config/profiles.toml. Nunca añadir contraseñas aquí.
+# Las rutas relativas se resuelven respecto al archivo TOML; ~ se expande.
+[profiles.origen]
+purpose = "backup"
+host = "postgres.vpn.example"
+port = 5432
+database = "mi_aplicacion"
+user = "usuario_backup"
+sslmode = "verify-full"
+sslrootcert = "~/.postgresql/root.crt"
+# sslcert = "~/.postgresql/client.crt"
+# sslkey = "~/.postgresql/client.key"
+backup_dir = "~/dbkeeper-backups"
+connect_timeout = 10
+lock_wait_timeout_ms = 30000
+
+# Seleccionar la misma versión mayor del servidor (16 es solo un ejemplo).
+# Sin estas rutas se busca cada herramienta en PATH.
+[profiles.origen.tools]
+pg_dump = "/usr/lib/postgresql/16/bin/pg_dump"
+pg_restore = "/usr/lib/postgresql/16/bin/pg_restore"
+psql = "/usr/lib/postgresql/16/bin/psql"
+
+[profiles.prueba]
+purpose = "restore"
+host = "127.0.0.1"
+port = 5432
+# Base de mantenimiento: debe existir. La base nueva se exige por CLI.
+database = "postgres"
+user = "usuario_pruebas"
+sslmode = "disable"
+backup_dir = "~/dbkeeper-backups"
+connect_timeout = 10
+lock_wait_timeout_ms = 30000
+
+[profiles.prueba.tools]
+pg_restore = "/usr/lib/postgresql/16/bin/pg_restore"
+psql = "/usr/lib/postgresql/16/bin/psql"
+

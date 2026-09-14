@@ -1,0 +1,158 @@
+{
+  ".codex/hooks.json": {
+    "mtime": 1789359120.7900589,
+    "seen": 1789367766.450546,
+    "ast_hash": "c4c93acda242d58679df81ed1a01baf3",
+    "semantic_hash": ""
+  },
+  "pyproject.toml": {
+    "mtime": 1789366808.8631926,
+    "seen": 1789367766.4505494,
+    "ast_hash": "2581221417934148c9241adb6464ec42",
+    "semantic_hash": ""
+  },
+  "src/dbkeeper/__init__.py": {
+    "mtime": 1789366810.9438388,
+    "seen": 1789367766.450551,
+    "ast_hash": "a39dbd46ea79ab85ae3ee3d83662c81f",
+    "semantic_hash": ""
+  },
+  "src/dbkeeper/__main__.py": {
+    "mtime": 1789366811.3767874,
+    "seen": 1789367766.4505525,
+    "ast_hash": "9ce8560cd3313f7759b9d4243866e76d",
+    "semantic_hash": ""
+  },
+  "src/dbkeeper/backup.py": {
+    "mtime": 1789368013.4784944,
+    "seen": 1789368117.6682107,
+    "ast_hash": "8461190bd773e07f8817857c8ca0d90b",
+    "semantic_hash": ""
+  },
+  "src/dbkeeper/cli.py": {
+    "mtime": 1789367855.2158177,
+    "seen": 1789368117.6682127,
+    "ast_hash": "1510f6fb6583550f47a7bd1cbed93c90",
+    "semantic_hash": ""
+  },
+  "src/dbkeeper/config.py": {
+    "mtime": 1789366812.2506783,
+    "seen": 1789367766.4505572,
+    "ast_hash": "be3904bf33fd1e7cd9a432eacf3465d4",
+    "semantic_hash": ""
+  },
+  "src/dbkeeper/copy.py": {
+    "mtime": 1789367141.3112872,
+    "seen": 1789367766.450571,
+    "ast_hash": "15b77b6b8eea6c1399049d2fb4e8eb52",
+    "semantic_hash": ""
+  },
+  "src/dbkeeper/doctor.py": {
+    "mtime": 1789367141.755021,
+    "seen": 1789367766.450573,
+    "ast_hash": "e0366dccbccb2ceb9d034c7d91448689",
+    "semantic_hash": ""
+  },
+  "src/dbkeeper/errors.py": {
+    "mtime": 1789366811.8021033,
+    "seen": 1789367766.4505744,
+    "ast_hash": "18b4aa1dc979303e30d1498ec35bc1e5",
+    "semantic_hash": ""
+  },
+  "src/dbkeeper/listing.py": {
+    "mtime": 1789367142.3313735,
+    "seen": 1789367766.4505754,
+    "ast_hash": "eed61074acbc746591723763a439f217",
+    "semantic_hash": ""
+  },
+  "src/dbkeeper/logging_utils.py": {
+    "mtime": 1789368014.3668504,
+    "seen": 1789368117.6682208,
+    "ast_hash": "4c574c68e2a0462a9c72477b816c36ca",
+    "semantic_hash": ""
+  },
+  "src/dbkeeper/manifest.py": {
+    "mtime": 1789368013.9135847,
+    "seen": 1789368117.668222,
+    "ast_hash": "e3a49a6537eef49d307878e9ab1b4acd",
+    "semantic_hash": ""
+  },
+  "src/dbkeeper/postgres.py": {
+    "mtime": 1789367854.3388696,
+    "seen": 1789368117.6682231,
+    "ast_hash": "6d4376f89b03f3a320248a795c320aae",
+    "semantic_hash": ""
+  },
+  "src/dbkeeper/restore.py": {
+    "mtime": 1789367140.859662,
+    "seen": 1789367766.4505794,
+    "ast_hash": "9412cbc95e6ab71ace47e34fc905b730",
+    "semantic_hash": ""
+  },
+  "src/dbkeeper/storage.py": {
+    "mtime": 1789367143.195697,
+    "seen": 1789367766.4505942,
+    "ast_hash": "4bfe6ab3b1ec5352ff083dc3e112527c",
+    "semantic_hash": ""
+  },
+  "src/dbkeeper/verify.py": {
+    "mtime": 1789366989.73445,
+    "seen": 1789367766.4505951,
+    "ast_hash": "03571fb77eecabfb375b5e6d9411fb24",
+    "semantic_hash": ""
+  },
+  "tests/__init__.py": {
+    "mtime": 1789367354.9637713,
+    "seen": 1789367766.450596,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "tests/test_integration.py": {
+    "mtime": 1789368158.6466963,
+    "seen": 1789368166.9576871,
+    "ast_hash": "991fe65049ac46e7b30629c8d3291e09",
+    "semantic_hash": ""
+  },
+  "tests/test_unit.py": {
+    "mtime": 1789368014.803727,
+    "seen": 1789368117.6682308,
+    "ast_hash": "d85e974a5a8baedbe83b3f0d25520c5c",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1789359120.7758605,
+    "seen": 1789367766.4505987,
+    "ast_hash": "6a47d64fcc136324ca395065a707ef76",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1789367723.9784691,
+    "seen": 1789367766.4506,
+    "ast_hash": "aada070e50206c654498a11a1149898b",
+    "semantic_hash": ""
+  },
+  "docs/instalacion_wsl.md": {
+    "mtime": 1789367955.949905,
+    "seen": 1789368117.6682343,
+    "ast_hash": "7383ac0bd1f0ec81b96b5a65dd0f3602",
+    "semantic_hash": ""
+  },
+  "docs/restauracion_prueba.md": {
+    "mtime": 1789367727.3877058,
+    "seen": 1789367766.4506023,
+    "ast_hash": "9cdf8ba7715cbf057e3734dd1115d6a3",
+    "semantic_hash": ""
+  },
+  "docs/solucion_problemas.md": {
+    "mtime": 1789368159.0918317,
+    "seen": 1789368166.9576943,
+    "ast_hash": "f36121224ecb3a6f1db6c668464f4a0f",
+    "semantic_hash": ""
+  },
+  "docs/uso.md": {
+    "mtime": 1789367726.9448836,
+    "seen": 1789367766.450604,
+    "ast_hash": "18289e5882be30fc5d19d9d81eb61f33",
+    "semantic_hash": ""
+  }
+}
